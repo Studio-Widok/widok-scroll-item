@@ -1,6 +1,6 @@
 /**
  * create new scroll item
- * @param {selector} element element to scroll
+ * @param {string} element element to scroll
  * @param {object} options extra options
  * @param {function} options.onScroll function(scrollItem)
  * @param {function} options.onStateChange function(prop, value, scrollItem)
