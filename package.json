@@ -8,7 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "cash-dom": "^8.1.0",
-    "widok": "github:weterynarzfred/widok",
-    "widok-throttle": "github:weterynarzfred/widok-throttle"
+    "widok": "github:studio-widok/widok",
+    "widok-throttle": "github:studio-widok/widok-throttle"
   }
 }

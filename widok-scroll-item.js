@@ -7,9 +7,9 @@
  * @returns {object} scrollItem
  */
 
-const $ = require('cash-dom');
-const throttle = require('widok-throttle');
-const widok = require('widok');
+import $ from 'cash-dom';
+import throttle from 'widok-throttle';
+import widok from 'widok';
 
 const createScrollItem = (function () {
   class ScrollItem {
@@ -111,4 +111,4 @@ const createScrollItem = (function () {
   };
 })();
 
-if (typeof module !== 'undefined') module.exports = createScrollItem;
+export default createScrollItem;
